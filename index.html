@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Team 200 OK Project Website</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet'>
+</head>
+
+
+<body>
+	
+
+	<div class="flex" id="main"></div>
+
+
+	<div class = "projectTitle"> 
+		<h1 class="projName"  id="autoJump"> 
+			Delta Hand Pies Internal App
+			</h1>
+			
+			<nav class="Navi">
+				<ul class="menu">
+					<li><a class ="navButton" href = "#homeJump">Home</a></li>
+					<li><a class ="navButton" href = "#BgJump">Background</a></li>
+					<li><a class ="navButton" href = "#scopeJump">Scope</a></li>
+					<li><a class ="navButton" href = "#needJump">Need</a></li>
+					<li><a class ="navButton" href = "#solJump">Solution</a></li>
+					<li><a class ="navButton" href = "#highJump">Highlights</a></li>
+					<li><a class ="navButton" href = "#protoJump">Showcase</a></li>
+					<li><a class ="navButton" href = "#timeJump">Timeline</a></li>
+				
+				</ul>
+				
+			</nav>
+		</div>	
+
+	<!--Change the Team name and Team Members here -->
+	<div id="mainContainer" class="mainContainer">
+		
+		<div id="logo_intro_Container" class="logo_intro_Container">
+		
+			<div id="introContainer" class="introContainer">
+			<a class="anchor" id="homeJump"></a>
+
+				<h3>Team Name: <strong>200 OK</strong></h3>
+				Team Members:
+			<ul>
+				<li>Long Nguyen</li>
+				<li>Nhat Doan</li>
+				<li>Harry Luu</li>
+				<li>Ezekiel Sung</li>
+				<li>Hung Truong</li>
+				<li>Mustafa Rasouli</li>
+			</ul>
+				<br /> Advisor: Prof. Chen, Haiquan
+			</div >
+		</div>
+	
+		<hr>
+
+		<div  class="bgContainer">
+		<a class="anchor" id="BgJump"></a>
+			<h3>Background</h3>
+				<ul>
+					<li>Business: Delta Hand Pies</li>
+					<li>Problems to solve:
+					<ul>
+					<li>The client is manually processing all orders each week</li>
+					<li>Having to map out delivery routes of orders to drivers.</li>
+					<li>There is a lack of flow in the delivery process.</li>
+					<li>Drivers currently do not have an app they can rely on for order information, delivery address, and instructions.</li>
+				</ul>
+					
+					</ul>
+		</div>
+		<hr />
+
+		<div class="scopeContainer">
+		<a class="anchor" id="scopeJump"></a>
+			<h3>Scope</h3>
+			<ul>
+				<li>This project is for the creation of a data management application for the client’s business of making custom pies and delivering it directly to a customer’s door.</li>
+				<li>The application will allow operation managers to sort, manage, and assign delivery data to specific drivers.</li>
+				<lI>There will be a corresponding mobile application whereby anyone using the app can view and manage detailed order information.</li>
+				<li>Able to automate the process of notifying customers regarding their order status.</li>
+			</ul>
+		</div>
+		<hr />
+
+		<div class="needContainer">
+		<a class="anchor" id="needJump"></a>
+			<h3 >Need</h3>
+			<ul>
+				<li>The client needs an automation of weekly delivery data management for Delta Hand Pies. </li>
+				<li>The  system would import raw sales data via a pre-built WordPress - WooCommerce through APIs. </li>
+				<li>There is a need to be able to manipulate and express these data in a useful way. </li>
+				<li>Delivery drivers would be able to look up the assigned information via an application.</li>
+				<li>The application would output the delivery information in a JSON format.</li>
+				<li>The tool would also be used by operation managers to check  for pending and completed deliveries. </li>
+				<li>The client needs a quick and efficient method for communication between delivery driver and the customers. </li>
+			</ul>
+			
+			
+		</div>
+		<hr>
+		<div class="responsive2">
+			<div class="gallery2">
+				<img src="DriverDeliveryApp.PNG" alt="Driver Delivery" width="450px" height="auto">
+				<div class="desc">Driver Delivery</div>
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+		</hr>
+
+		<hr>
+	
+		<div class="solContainer">
+		<a class="anchor" id="solJump"></a>
+			<h3>Proposed Solution</h3>
+			<ul>
+				<li>Build a SQL internal database to fetch data from a built WordPress-WooCommerce through APIs.</li>
+				<li>Allowing the data to be manage on an internal website.
+				<li>An accompanying driver’s app will display detailed order information.</li> 
+				<li>An automated messaging system using Twilio APIs for communication between drivers to the customers will be implemented into the drivers app.</li>
+			</ul>
+		</div>
+		<hr>
+		<div class="highlightContainer">
+		<a class="anchor" id="highJump"></a>
+			<h3>Highlights</h3>
+			<p>
+			<!-- Change the description of the project strting from here -->
+			<!-- What is special about your project? -->
+			<ul>
+				<li>We seek to lower the client’s dependency on third party eCommerce application.</li>
+				<li>The project will provide us a wide variety of skillsets.</li>
+			</ul>
+
+			<!-- You may compare your proposed solution with existing ones, and elaborate on why it is innovative, in which
+			aspects. -->
+			</p>
+		</div>
+		<hr>
+		<div class="Prototype_Container">
+		<a class="anchor" id="protoJump"></a>
+			<h3>Showcases:</h3>
+			<p>
+					<div class="responsive">
+					  <div class="gallery">
+						  <img src="OrderList.PNG" alt="Order List" width="550" height="auto">
+						<div class="desc">Order List</div>
+					  </div>
+					</div>
+					
+					<div class="responsive">
+					  <div class="gallery">
+						  <img src="OrderQueue.PNG" alt="Order Queue" width="550" height="auto">
+						<div class="desc">Order Queue</div>
+					  </div>
+					</div>
+					
+					
+					<div class="responsive">
+					  <div class="gallery">
+						  <img src="Archive.PNG" alt="Order Archive" width="550" height="auto">
+						<div class="desc">Order Archive</div>
+					  </div>
+					</div>
+
+					<div class="responsive">
+					  <div class="gallery">
+						  <img src="DeliveringOrder.PNG" alt="Delivering Order" width="550" height="auto">
+						<div class="desc">Delivering Order</div>
+					  </div>
+					</div>
+
+			
+					
+
+				<div class="clearfix"></div>
+		</div>
+			
+		<hr>
+			<div id="Lesson" class="timeline_Container">
+			<a class="anchor" id="timeJump"></a>
+				<h3>Timeline:</h3>
+				<p>
+					<!--- insert timeline image here-->
+					<img class="responsiveTimeline" src="TimelineV3.PNG" alt="The Project Timeline"  height="auto">
+				</p>
+		
+				<div class="lessonContainer">
+				<h3 >Lesson Learned</h3>
+				<p>
+					<!-- Change the description of the project strting from here -->
+					Technologies:<br>
+					<ul>
+						<li>PHP</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>Git</li>
+						
+					</ul>
+
+					Tools:<br>
+					<ul>
+						<li>Laravel / DebugBar</li>
+						<li>Visual Studio Code</li>
+						<li>phpMyAdmin</li>
+						<li>LAMP / XAMPP</li>
+						<li>Mockflow</li>
+						<li>Balsamiq</li>
+						
+					</ul>
+					
+					Skills:<br>
+					<ul>
+						<li>SCRUM</li>
+						<li>Team & Client Collaboration</li>
+					</ul>
+				</p>
+
+
+
+				</div>
+			</div>
+			
+		<hr>
+			<footer style="align-content: center;display: flex;flex-direction: column;"> 
+			<small style="margin: 0 auto;">&copy; Copyright 2020-2021, Delta Hand Pies.</small> 
+			<br>
+			<small style="margin: 0 auto;">  All rights reserved. </small>
+			</footer>	
+				<hr>
+	</div>
+	
+	
+	<script src="aniScript.js"></script>
+</body>
+
+</html>
